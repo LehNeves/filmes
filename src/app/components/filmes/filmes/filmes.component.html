@@ -1,0 +1,19 @@
+
+<h1>{{titulo}}</h1>
+
+<div>
+	<button (click)="add()">
+		Adicionar Filmes
+	</button>
+</div>
+
+<ul>
+  <li *ngFor="let filme of filmes">
+	{{filme.id}} <br/> 
+	<a routerLink="/filmes-details/{{filme.id}}">{{filme.nome}}</a> <br /> 
+	{{filme.descricao}}<br /> 
+		<button (click)="deleteFilme(filme.id)">Deletar</button>
+  </li>
+
+  
+</ul>

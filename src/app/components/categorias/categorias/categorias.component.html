@@ -1,0 +1,13 @@
+<h1>{{titulo}}</h1>
+<div>
+	<button (click)="add()">Adicionar Categorias</button>
+</div>
+
+<ul>
+	<li *ngFor="let categoria of categorias">
+		<a routerLink="/categorias-details/{{categoria.id}}">{{categoria.nome}}</a><br />
+		<!-- <button (click)="deleteFilme(filme.id)">
+			Deletar
+		</button> -->
+	</li>
+</ul>

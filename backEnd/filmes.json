@@ -1,0 +1,50 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Risos"
+    },
+    {
+      "id": 2,
+      "nome": "comedia"
+    },
+    {
+      "id": "3",
+      "nome": "Tiro"
+    },
+    {
+      "id": "4",
+      "nome": "Drama"
+    },
+    {
+      "id": "5",
+      "nome": "OO"
+    }
+  ],
+  "filmes": [
+    {
+      "id": 1,
+      "nome": "Homem-Aranha: No Aranhaverso",
+      "descricao": "Filmes com boa critica",
+      "categoria": 1
+    },
+    {
+      "id": 2,
+      "nome": "cafarnaúm",
+      "descricao": "poucos assistiram",
+      "categoria": 1
+    },
+    {
+      "id": 3,
+      "nome": "Uma noite de 12 anos",
+      "descricao": "bom pra pensar",
+      "categoria": 2
+    },
+    {
+      "id": 4,
+      "nome": "O odio que você semeia",
+      "descricao": "Não Assisti",
+      "categoria": 2
+    }
+  ]
+}
